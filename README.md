@@ -1,7 +1,3 @@
-Here’s your revised `README.md` with **no author or future enhancements**, and your **Google Colab link** added in the right place:
-
----
-
 # 🧠 AI-Driven Claims Automation System
 
 This project implements a backend solution for automating insurance claims workflows using advanced natural language processing (NLP) and transformer-based models. It processes claim documents (PDF/DOCX/images), classifies claims intelligently, and routes them for further action — all while ensuring compliance with policy rules.
