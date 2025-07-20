@@ -1,0 +1,7 @@
+ClaimID,CustomerName,ClaimType,ClaimAmount,Priority,Status,SubmissionDate,Description
+CLM001,John Doe,Vehicle Damage,12000,High,Submitted,5/12/2024,The customer's car was rear-ended at a traffic light and sustained heavy damage to the bumper and trunk.
+CLM002,Jane Smith,Medical,5400,Medium,In Review,6/1/2024,Claim submitted for hospitalization expenses due to a fractured leg from a biking accident.
+CLM003,Amit Kumar,Home Theft,25000,High,Approved,4/23/2024,Theft reported at the claimant's residence with missing electronics and jewelry.
+CLM004,Sara Lee,Travel Delay,800,Low,Submitted,7/10/2024,"Flight to Dubai was delayed by 12 hours due to technical issues, resulting in additional hotel costs."
+CLM005,Michael Chen,Property Fire,40000,High,Escalated,3/16/2024,Fire damage to kitchen and living room caused by electrical short circuit.
+CLM006,Raj Patel,Health,3000,Medium,Submitted,7/1/2024,Outpatient surgery reimbursement request with supporting hospital documents attached.
