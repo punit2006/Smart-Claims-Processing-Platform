@@ -147,3 +147,30 @@ query = "What is the claim about?"
 # Call process_claim_document with the raw text directly
 response = process_claim_document(claim_text, query, api_key)
 print(response)
+
+
+#For PDF : 
+
+import os
+from pypdf import PdfReader
+from docx import Document
+from PIL import Image
+import pytesseract
+
+file_path = "/content/sample_claim.pdf" 
+file_type = "pdf" 
+user_query = "What is the claim about?"
+api_key = "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"
+
+
+try:
+    raw_text = extract_text_from_file(file_path, file_type)
+    result = process_claim_document(raw_text, user_query, api_key)
+    print(result)
+
+except FileNotFoundError:
+    print(f"Error: File not found at {file_path}")
+except ValueError as ve:
+    print(f"Error processing file: {ve}")
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")
