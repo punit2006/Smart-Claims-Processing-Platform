@@ -1,3 +1,7 @@
+!pip install langchain langchain-groq chromadb sentence-transformers pypdf python-docx Pillow pytesseract
+
+!pip install -U langchain-community
+
 import os
 import tempfile
 from typing import Tuple, Dict, Any
